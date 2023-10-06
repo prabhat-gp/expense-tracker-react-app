@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
+import Expenses from './components/Expenses/Expenses';
 
 const DUMMY_EXPENSES = [
   {
@@ -24,7 +24,6 @@ const DUMMY_EXPENSES = [
     date: new Date(2021, 5, 12),
   },
 ];
-
 
 const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
